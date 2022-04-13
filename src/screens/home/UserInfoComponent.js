@@ -1,5 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
+import fonts from '../../assets/Fonts';
 import Resize from '../../common/Resize';
 import ProfileIcon from './ProfileIcon';
 
@@ -26,6 +27,7 @@ const styles = StyleSheet.create({
   },
   nameText: {
     marginStart: Resize(10),
+    fontFamily: fonts.montserrat_medium
   },
   firstSubContainer: {
     flexDirection: 'row',

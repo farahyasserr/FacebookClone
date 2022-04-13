@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet, Image, TouchableOpacity} from 'react-native';
+import {StyleSheet, Image, TouchableOpacity} from 'react-native';
 import Resize from '../../common/Resize';
 
 const ProfileIcon = ({uri}) => {
