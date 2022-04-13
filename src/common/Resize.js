@@ -1,6 +1,9 @@
 import {Dimensions} from 'react-native';
-const screenWidth = Dimensions.get('window').width;
+
+const {width,height} = Dimensions.get('window');
 
 export default Resize = size => {
-  return (parseInt(size) * screenWidth) / 500;
+  return (parseInt(size) * width) / 500;
 };
+
+export {width,height};
