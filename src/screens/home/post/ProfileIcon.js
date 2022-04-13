@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Image, TouchableOpacity} from 'react-native';
-import Resize from '../../common/Resize';
+import Resize from '../../../common/Resize';
 
 const ProfileIcon = ({uri}) => {
   return (
@@ -17,13 +17,13 @@ const ProfileIcon = ({uri}) => {
 
 const styles = StyleSheet.create({
   icon: {
-    height: Resize(50),
-    width: Resize(50)
+    height: Resize(48),
+    width: Resize(48)
   },
   imageContainer:{
-      borderRadius: Resize(50)/2,
+      borderRadius: Resize(48)/2,
       overflow: 'hidden',
-      backgroundColor: 'red',
+      alignSelf: 'flex-start',
   }
 });
 export default ProfileIcon;
