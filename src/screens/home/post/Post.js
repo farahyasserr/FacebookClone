@@ -4,12 +4,12 @@ import fonts from '../../../assets/Fonts';
 import Resize, {width} from '../../../common/Resize';
 import Separator from '../../../components/Separator';
 import InteractionPanel from './InteractionPanel';
-import UserInfoComponent from './UserInfoComponent';
+import UserInfo from './UserInfo';
 
 const Post = ({item}) => {
   return (
     <View style={styles.postContainer}>
-      <UserInfoComponent user={item.from} />
+      <UserInfo user={item.from} post={item}/>
       <View style={styles.messageContainer}>
         <Text style={styles.message}>{item.message}</Text>
       </View>
@@ -30,7 +30,7 @@ const Post = ({item}) => {
 
 const styles = StyleSheet.create({
   messageContainer: {
-    padding: Resize(30),
+    padding: Resize(18),
   },
   message: {
     fontFamily: fonts.montserrat_regular,
