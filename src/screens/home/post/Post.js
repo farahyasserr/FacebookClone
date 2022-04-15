@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
 import fonts from '../../../assets/Fonts';
+import colors from '../../../common/Colors';
 import Resize, {width} from '../../../common/Resize';
 import Separator from '../../../components/Separator';
 import InteractionPanel from './InteractionPanel';
@@ -34,6 +35,7 @@ const styles = StyleSheet.create({
   },
   message: {
     fontFamily: fonts.montserrat_regular,
+    color: colors.black,
   },
   postContainer: {
     backgroundColor: 'white',

@@ -3,12 +3,17 @@ import {SafeAreaView, ScrollView} from 'react-native';
 import PostDivider from '../../components/PostDivider';
 import CreatePost from './creatingContent/CreatePost';
 import PostsList from './PostsList';
+import Reels from './reels/Reels';
+import Stories from './stories/Stories';
 
 const Home = () => {
   return (
     <SafeAreaView>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <CreatePost />
+        <PostDivider />
+        {/* <Reels /> */}
+        <Stories />
         <PostDivider />
         <PostsList />
       </ScrollView>
