@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {View, StyleSheet, TextInput, Alert} from 'react-native';
 import Resize from '../../../common/Resize';
 import userData from '../../../data/MyAccountDummyData';
-import ProfileIcon from '../post/ProfileIcon';
+import ProfileIcon from '../posts/ProfileIcon';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
 const InputComponent = () => {
