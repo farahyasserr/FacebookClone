@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, StyleSheet, TextInput} from 'react-native';
+import {View, StyleSheet, TextInput, Alert} from 'react-native';
 import Resize from '../../../common/Resize';
 import userData from '../../../data/MyAccountDummyData';
 import ProfileIcon from '../post/ProfileIcon';
@@ -11,6 +11,10 @@ const InputComponent = () => {
   const changeTextHandler = val => {
     setPostMessage(val);
   };
+
+  pressHandler = () =>{
+    Alert.alert("Coming soon");
+  }
 
   return (
     <View style={styles.container}>
@@ -24,7 +28,7 @@ const InputComponent = () => {
           placeholderTextColor="black"
         />
       </View>
-      <Icon name="images" size={20} color="green" style={styles.icon} />
+      <Icon name="images" size={20} color="green" style={styles.icon} onPress={pressHandler}/>
     </View>
   );
 };

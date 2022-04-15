@@ -19,7 +19,7 @@ const ReelItem = ({item}) => {
           name="controller-play"
           size={18}
           style={styles.icon}
-          color={colors.lightgray}
+          color={colors.white}
         />
         <Text style={styles.viewsText}>{item.views}</Text>
       </View>
@@ -38,9 +38,9 @@ const styles = StyleSheet.create({
     marginEnd: Resize(10),
   },
   viewsText: {
-    color: colors.lightgray,
+    color: colors.white,
     fontSize: Resize(16),
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
   viewsContainer:{
       flexDirection: 'row',
