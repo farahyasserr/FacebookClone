@@ -5,7 +5,7 @@ const data = [
     message:
       'This is my first post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
     status_type: 'created_note',
-    image: 'https://picsum.photos/id/1014/600/600',
+    image: 'https://picsum.photos/id/904/600/600',
     from: {
       name: 'Farah Yasser',
       icon: 'https://picsum.photos/200',
@@ -75,7 +75,7 @@ const data = [
     message:
       'This is my khs sojsnsojs sl post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
     status_type: 'created_note',
-    image: 'https://picsum.photos/id/1019/400/400',
+    image: null,
     from: {
       name: 'Ahmed Mohamed',
       icon: 'https://picsum.photos/200/300?random=1',
@@ -120,7 +120,7 @@ const data = [
     from: {
       name: 'Jessica Len',
       icon: 'https://picsum.photos/id/1013/700/700',
-      date: '20 Jan 2021',
+      date: '12h',
       has_story: true,
     },
   },
@@ -130,11 +130,11 @@ const data = [
     message:
       `If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough`,
     status_type: 'created_note',
-    image: 'https://picsum.photos/700/300?random=8',
+    image: 'https://picsum.photos/id/1014/700/400',
     from: {
       name: 'Escape',
       icon: 'https://picsum.photos/200/300?random=1',
-      date: '20 Jan 2021',
+      date: '1m',
       has_story: true,
     },
   },
@@ -148,7 +148,7 @@ const data = [
     from: {
       name: 'Omar Ahmed',
       icon: 'https://picsum.photos/200/300?random=1',
-      date: '20 Jan 2021',
+      date: '3d',
       has_story: true,
     },
   },
