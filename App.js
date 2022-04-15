@@ -1,7 +1,6 @@
 
 import React from 'react';
-import Home from './src/screens/Home';
-
+import Home from './src/screens/home/Home';
 
 const App = () => {
   return (
