@@ -6,6 +6,7 @@ import ProfileIcon from './ProfileIcon';
 import Icon3 from 'react-native-vector-icons/FontAwesome5';
 import Icon4 from 'react-native-vector-icons/Ionicons';
 import PostSettingsComponent from './PostSettingsComponent';
+import colors from '../../../common/Colors';
 
 const UserInfo = ({user, post}) => {
   return (
@@ -20,12 +21,13 @@ const UserInfo = ({user, post}) => {
           <View style={styles.postInfoContainer}>
             <Text style={styles.dateText}>{user.date} . </Text>
             {post.is_public === true ? (
-              <Icon4 name="ios-earth" size={12} />
+              <Icon4 name="ios-earth" size={12} color={colors.black} />
             ) : (
               <Icon3
                 name="user-friends"
                 size={10}
                 style={{alignSelf: 'center'}}
+                color={colors.black}
               />
             )}
           </View>
@@ -44,6 +46,7 @@ const styles = StyleSheet.create({
   nameText: {
     marginStart: Resize(10),
     fontFamily: fonts.montserrat_medium,
+    color: colors.black,
   },
   firstSubContainer: {
     flexDirection: 'row',
@@ -54,6 +57,7 @@ const styles = StyleSheet.create({
     fontFamily: fonts.montserrat_regular,
     fontSize: Resize(14),
     marginStart: Resize(10),
+    color: colors.black,
   },
   postInfoContainer: {
     flexDirection: 'row',

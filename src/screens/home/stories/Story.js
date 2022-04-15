@@ -35,11 +35,11 @@ const styles = StyleSheet.create({
   },
   viewsContainer:{
       flexDirection: 'row',
-      alignItems: 'center',
       backgroundColor: 'transparent',
       position: 'absolute',
       bottom: Resize(8),
       marginStart: Resize(10),
+      width: '80%',
   }
 });
 
