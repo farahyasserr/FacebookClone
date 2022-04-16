@@ -4,18 +4,18 @@ import ContentList from './ContentList';
 import InputComponent from './InputComponent';
 
 const CreatePost = () => {
-  return (          
+  return (
     <View style={styles.createPostContainer}>
-        <InputComponent />
-        <ContentList />
+      <InputComponent />
+      <ContentList />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-    createPostContainer:{
-        backgroundColor: '#eee'
-    }
-})
+  createPostContainer: {
+    backgroundColor: '#eee',
+  },
+});
 
 export default CreatePost;

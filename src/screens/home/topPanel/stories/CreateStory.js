@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Image} from 'react-native';
-import colors from '../../../common/Colors';
-import Resize from '../../../common/Resize';
-import userData from '../../../data/MyAccountDummyData';
+import colors from '../../../../common/Colors';
+import Resize from '../../../../common/Resize';
+import userData from '../../../../data/MyAccountDummyData';
 import Icon from 'react-native-vector-icons/Entypo';
 
 const CreateStory = () => {

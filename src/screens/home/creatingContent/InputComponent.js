@@ -12,9 +12,9 @@ const InputComponent = () => {
     setPostMessage(val);
   };
 
-  pressHandler = () =>{
-    Alert.alert("Coming soon");
-  }
+  pressHandler = () => {
+    Alert.alert('Coming soon');
+  };
 
   return (
     <View style={styles.container}>
@@ -28,7 +28,13 @@ const InputComponent = () => {
           placeholderTextColor="black"
         />
       </View>
-      <Icon name="images" size={20} color="green" style={styles.icon} onPress={pressHandler}/>
+      <Icon
+        name="images"
+        size={20}
+        color="green"
+        style={styles.icon}
+        onPress={pressHandler}
+      />
     </View>
   );
 };

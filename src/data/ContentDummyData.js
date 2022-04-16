@@ -14,7 +14,7 @@ const list = [
     title: 'Room',
     iconName: 'video-call',
     color: '#d966ff',
-    Package: Icon2
+    Package: Icon2,
   },
   {
     title: 'Group',

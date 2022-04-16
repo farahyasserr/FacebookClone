@@ -44,8 +44,7 @@ const data = [
   {
     id: 4,
     is_public: true,
-    message:
-      'Finally vacation!',
+    message: 'Finally vacation!',
     status_type: 'created_note',
     image: 'https://picsum.photos/id/1015/600/600',
     from: {
@@ -82,7 +81,8 @@ const data = [
       date: '1d',
       has_story: true,
     },
-  },{
+  },
+  {
     id: 7,
     is_public: false,
     message:
@@ -127,8 +127,7 @@ const data = [
   {
     id: 10,
     is_public: true,
-    message:
-      `If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough`,
+    message: `If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough`,
     status_type: 'created_note',
     image: 'https://picsum.photos/id/1014/700/400',
     from: {

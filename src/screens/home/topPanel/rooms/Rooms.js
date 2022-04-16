@@ -1,8 +1,8 @@
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import fonts from '../../../assets/Fonts';
-import colors from '../../../common/Colors';
+import fonts from '../../../../assets/Fonts';
+import colors from '../../../../common/Colors';
 
 const Rooms = () => {
   return (

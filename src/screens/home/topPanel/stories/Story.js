@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
-import Resize from '../../../common/Resize';
-import colors from '../../../common/Colors';
+import Resize from '../../../../common/Resize';
+import colors from '../../../../common/Colors';
 
 const Story = ({item}) => {
   return (

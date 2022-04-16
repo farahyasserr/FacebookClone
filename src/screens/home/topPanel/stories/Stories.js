@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, FlatList, View} from 'react-native';
-import Resize from '../../../common/Resize';
-import stories from '../../../data/StoriesDummyData';
+import Resize from '../../../../common/Resize';
+import stories from '../../../../data/StoriesDummyData';
 import CreateStory from './CreateStory';
 import Story from './Story';
 
