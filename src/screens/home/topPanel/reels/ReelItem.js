@@ -1,8 +1,8 @@
 import React from 'react';
 import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
-import Resize from '../../../common/Resize';
+import Resize from '../../../../common/Resize';
 import Icon from 'react-native-vector-icons/Entypo';
-import colors from '../../../common/Colors';
+import colors from '../../../../common/Colors';
 
 const ReelItem = ({item}) => {
   return (

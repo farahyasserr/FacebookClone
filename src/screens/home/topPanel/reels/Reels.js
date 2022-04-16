@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, FlatList, View} from 'react-native';
-import Resize from '../../../common/Resize';
-import reels from '../../../data/ReelsDummyData';
+import Resize from '../../../../common/Resize';
+import reels from '../../../../data/ReelsDummyData';
 import CreateReel from './CreateReel';
 import ReelItem from './ReelItem';
 

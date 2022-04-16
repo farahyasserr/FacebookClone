@@ -1,8 +1,8 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, View, Text} from 'react-native';
-import fonts from '../../../assets/Fonts';
-import colors from '../../../common/Colors';
-import Resize from '../../../common/Resize';
+import fonts from '../../../../assets/Fonts';
+import colors from '../../../../common/Colors';
+import Resize from '../../../../common/Resize';
 import LinearGradient from 'react-native-linear-gradient';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
