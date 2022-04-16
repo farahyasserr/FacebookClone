@@ -5,7 +5,7 @@ import Resize from '../../../common/Resize';
 import ProfileIcon from './ProfileIcon';
 import Icon3 from 'react-native-vector-icons/FontAwesome5';
 import Icon4 from 'react-native-vector-icons/Ionicons';
-import PostSettingsComponent from './PostSettingsComponent';
+import PostSettings from './PostSettings';
 import colors from '../../../common/Colors';
 
 const UserInfo = ({user, post}) => {
@@ -16,7 +16,7 @@ const UserInfo = ({user, post}) => {
         <View style={styles.horizontalView}>
           <View style={styles.nameAndSettingsContainer}>
             <Text style={styles.nameText}>{user.name}</Text>
-            <PostSettingsComponent />
+            <PostSettings />
           </View>
           <View style={styles.postInfoContainer}>
             <Text style={styles.dateText}>{user.date} . </Text>
