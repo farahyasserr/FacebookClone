@@ -1,6 +1,6 @@
 const userData = {
   name: 'Farah Yasser',
-  image: 'https://picsum.photos/600/700?random=100',
+  image: 'https://picsum.photos/id/913/700/400',
 };
 
 export default userData;
