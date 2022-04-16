@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, useWindowDimensions} from 'react-native';
 import {TabView, SceneMap, TabBar} from 'react-native-tab-view';
+import colors from '../../../common/Colors';
+import Reels from './reels/Reels';
+import Rooms from './rooms/Rooms';
+import Stories from './stories/Stories';
 
 const FirstRoute = () => <Stories />;
 const SecondRoute = () => <Reels />;
@@ -12,8 +16,6 @@ const renderScene = SceneMap({
   third: thirdRoute,
 });
 
-const layout = useWindowDimensions();
-
 const Index = () => {
   const [index, setIndex] = useState(0);
   const [routes] = useState([
@@ -21,6 +23,8 @@ const Index = () => {
     {key: 'second', title: 'Reels'},
     {key: 'third', title: 'Rooms'},
   ]);
+
+  const layout = useWindowDimensions();
 
   return (
     <View style={{height: Resize(300)}}>
