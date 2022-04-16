@@ -10,7 +10,7 @@ import UserInfo from './UserInfo';
 const Post = ({item}) => {
   return (
     <View style={styles.postContainer}>
-      <UserInfo user={item.from} post={item}/>
+      <UserInfo user={item.from} post={item} />
       <View style={styles.messageContainer}>
         <Text style={styles.message}>{item.message}</Text>
       </View>

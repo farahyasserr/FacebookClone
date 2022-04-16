@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, FlatList} from 'react-native';
+import {FlatList} from 'react-native';
 import PostDivider from '../../../components/PostDivider';
 import data from '../../../data/TimelineDummyData';
 import Post from './Post';
@@ -24,7 +24,4 @@ const PostsList = () => {
   );
 };
 
-const styles = StyleSheet.create({
-
-});
 export default PostsList;

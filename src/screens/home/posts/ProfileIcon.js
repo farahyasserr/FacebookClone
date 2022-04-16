@@ -36,14 +36,14 @@ const styles = StyleSheet.create({
     borderRadius: Resize(56) / 2,
     backgroundColor: colors.blue,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
-  whiteArea:{
+  whiteArea: {
     height: Resize(50),
     width: Resize(50),
     borderRadius: Resize(50) / 2,
     backgroundColor: colors.white,
     justifyContent: 'center',
-  }
+  },
 });
 export default ProfileIcon;

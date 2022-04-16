@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     fontFamily: fonts.montserrat_medium,
     textAlign: 'center',
     fontSize: Resize(16),
-    paddingBottom: Resize(12)
+    paddingBottom: Resize(12),
   },
   circularView: {
     width: Resize(60),
@@ -66,11 +66,11 @@ const styles = StyleSheet.create({
       height: 1,
     },
   },
-  upperContainer:{
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-  }
+  upperContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
 });
 
 export default CreateReel;

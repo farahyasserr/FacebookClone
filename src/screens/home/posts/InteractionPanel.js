@@ -11,7 +11,7 @@ const InteractionPanel = () => {
     <View style={styles.mainContainer}>
       <LikeComponent />
       <TouchableOpacity style={styles.subcontainer}>
-        <Icon name="comment-outline" size={20} color={colors.black}/>
+        <Icon name="comment-outline" size={20} color={colors.black} />
         <Text style={styles.text}>Comment</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.subcontainer}>
@@ -32,13 +32,13 @@ const styles = StyleSheet.create({
   subcontainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    flex:1,
-    justifyContent: 'center'
+    flex: 1,
+    justifyContent: 'center',
   },
-  text:{
+  text: {
     marginStart: Resize(8),
     color: colors.black,
-  }
+  },
 });
 
 export default InteractionPanel;
