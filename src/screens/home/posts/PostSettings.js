@@ -1,11 +1,10 @@
 import React from 'react';
 import {View, StyleSheet, TouchableOpacity} from 'react-native';
-import fonts from '../../../assets/Fonts';
-import Resize, {width} from '../../../common/Resize';
+import Resize from '../../../common/Resize';
 import Icon from 'react-native-vector-icons/AntDesign';
 import Icon2 from 'react-native-vector-icons/Feather';
 
-const PostSettingsComponent = () => {
+const PostSettings = () => {
   return (
     <View style={styles.subcontainer}>
       <TouchableOpacity>
@@ -27,4 +26,4 @@ const styles = StyleSheet.create({
     marginEnd: Resize(10),
   },
 });
-export default PostSettingsComponent;
+export default PostSettings;
