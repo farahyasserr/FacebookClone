@@ -29,13 +29,15 @@ const ReelItem = ({item}) => {
 
 const styles = StyleSheet.create({
   image: {
-    height: Resize(180),
+    height: Resize(190),
     width: Resize(120),
   },
   reelContainer: {
     borderRadius: 10,
     overflow: 'hidden',
     marginEnd: Resize(10),
+    borderWidth: 0.5,
+    borderColor: colors.lightgray,
   },
   viewsText: {
     color: colors.white,

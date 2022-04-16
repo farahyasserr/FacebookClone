@@ -32,11 +32,13 @@ const CreateReel = () => {
 
 const styles = StyleSheet.create({
   container: {
-    height: Resize(180),
+    height: Resize(190),
     width: Resize(120),
     borderRadius: 10,
     marginEnd: Resize(10),
     justifyContent: 'center',
+    borderWidth: 0.5,
+    borderColor: colors.lightgray,
   },
   text: {
     color: colors.white,
