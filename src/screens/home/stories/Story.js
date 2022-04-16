@@ -5,7 +5,7 @@ import colors from '../../../common/Colors';
 
 const Story = ({item}) => {
   return (
-    <TouchableOpacity style={styles.reelContainer}>
+    <TouchableOpacity style={styles.storyContainer}>
       <Image
         source={{uri: item.image}}
         style={styles.image}
@@ -20,13 +20,15 @@ const Story = ({item}) => {
 
 const styles = StyleSheet.create({
   image: {
-    height: Resize(180),
+    height: Resize(190),
     width: Resize(120),
   },
-  reelContainer: {
+  storyContainer: {
     borderRadius: 10,
     overflow: 'hidden',
     marginEnd: Resize(10),
+    borderColor: colors.lightgray,
+    borderWidth: 0.5
   },
   viewsText: {
     color: colors.white,
