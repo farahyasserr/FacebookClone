@@ -1,11 +1,5 @@
 import React, {useState} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  View,
-  Text,
-  useWindowDimensions,
-} from 'react-native';
+import {SafeAreaView, ScrollView} from 'react-native';
 import PostDivider from '../../components/PostDivider';
 import CreatePost from './creatingContent/CreatePost';
 import PostsList from './posts/PostsList';

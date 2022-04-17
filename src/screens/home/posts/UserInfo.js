@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import fonts from '../../../assets/Fonts';
 import Resize from '../../../common/Resize';
-import ProfileIcon from './ProfileIcon';
+import ProfileIcon from '../../../components/ProfileIcon';
 import PostSettings from './PostSettings';
 import colors from '../../../common/Colors';
 import PostAudience from './PostAudienceContainer';
