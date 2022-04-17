@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {StyleSheet, Image, TouchableOpacity, View} from 'react-native';
-import colors from '../../../common/Colors';
-import Resize from '../../../common/Resize';
+import colors from '../common/Colors';
+import Resize from '../common/Resize';
 
 const ProfileIcon = ({uri, user}) => {
   return (
@@ -46,4 +47,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+ProfileIcon.propTypes = {
+   uri: PropTypes.string,
+   user: PropTypes.object,
+}
+
 export default ProfileIcon;

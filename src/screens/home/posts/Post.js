@@ -6,6 +6,7 @@ import Resize, {width} from '../../../common/Resize';
 import Separator from '../../../components/Separator';
 import InteractionPanel from './InteractionPanel';
 import UserInfo from './UserInfo';
+import PropTypes from 'prop-types';
 
 const Post = ({item}) => {
   return (
@@ -48,4 +49,10 @@ const styles = StyleSheet.create({
     marginBottom: Resize(8),
   },
 });
+
+
+Post.propTypes = {
+  item: PropTypes.object,
+}
+
 export default Post;

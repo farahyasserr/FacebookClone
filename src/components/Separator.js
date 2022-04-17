@@ -2,6 +2,7 @@ import React from 'react';
 import {View, StyleSheet, Dimensions} from 'react-native';
 
 const {width} = Dimensions.get('window');
+
 const Separator = () => {
   return <View style={styles.separator} />;
 };

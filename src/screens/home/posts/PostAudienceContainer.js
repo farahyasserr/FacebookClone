@@ -3,6 +3,7 @@ import {View, Text, StyleSheet} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Icon2 from 'react-native-vector-icons/Ionicons';
 import fonts from '../../../assets/Fonts';
+import PropTypes from 'prop-types';
 import colors from '../../../common/Colors';
 
 const PostAudienceContainer = ({user, post}) => {
@@ -34,5 +35,10 @@ const styles = StyleSheet.create({
   },
   icon: {alignSelf: 'center'},
 });
+
+PostAudienceContainer.propTypes = {
+  user: PropTypes.object,
+  post: PropTypes.object,
+}
 
 export default PostAudienceContainer;
