@@ -21,7 +21,7 @@ Things included in this Task:
 - Creating a post input and whole container (What's on your mind?) (UI only)
 - A component that allows also the user to post Reels, Rooms, Group, or start a Live video.
 - Top panel which is implemented as a Tab View and includes the following as UI only:
-     -**Stories tab** that includes: 
+     - **Stories tab** that includes: 
           - List of some stories posted by friends or pages that the user can be following
           - A component for creating a new story that includes the profile picture of the user and a plus icon to create a story
      - **Reels tab** that includes: 
