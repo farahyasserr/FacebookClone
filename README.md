@@ -4,19 +4,21 @@ This is a facebook clone task for Breadfast.
 
 Steps to run the project:
 
-- Clone the project using git clone -b dev git@github.com:farahyasserr/FacebookClone.git
-- Run the following command after clone is finished
+- Clone the project using:
+  git clone -b dev git@github.com:farahyasserr/FacebookClone.git
+
+- Run the following command after clone is finished to install node-modules and pods:
       - npm install && cd ios && pod install && cd ..
 
 
-Then use these commands to run android and ios projects:
+Then use these commands to run android and ios:
 - Yarn ios
-- Yarn android   OR  source ~/.bash_profile&&npx react-native run-android;
+- Yarn android   OR  source ~/.bash_profile && npx react-native run-android;
 
 
 
 Things included in this Task:
-- Creating post panel (What's on your mind?) (UI only)
+- Creating a post input and whole container (What's on your mind?) (UI only)
 - A component that allows also the user to post Reels, Rooms, Group, or start a Live video.
 - Top panel which is implemented as a Tab View and includes the following as UI only:
      -**Stories tab** that includes: 
@@ -25,7 +27,7 @@ Things included in this Task:
      - **Reels tab** that includes: 
           - List of Reels posted by friends or other pages with the number of views shown at the bottom of the (supposedly) video
           - A component for creating a new reel
-     - Rooms tab that is coming soon (can be implemented in the future)
+     - Rooms tab that is "coming soon" (can be implemented in the future)
 - Timeline of the Home screen that consists of a list of posts
 - Each post includes:
      - Name of the user
