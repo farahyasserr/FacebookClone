@@ -3,7 +3,7 @@ const data = [
     id: 1,
     is_public: true,
     message:
-      'This is my first post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     status_type: 'created_note',
     image: 'https://picsum.photos/id/904/600/600',
     from: {
@@ -17,7 +17,7 @@ const data = [
     id: 2,
     is_public: false,
     message:
-      'This is my first post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
+      'This is my first post, and here is some dummy content for it',
     status_type: 'created_note',
     image: null,
     from: {
@@ -27,11 +27,25 @@ const data = [
       has_story: false,
     },
   },
+
+  {
+    id: 10,
+    is_public: true,
+    message: `If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough`,
+    status_type: 'created_note',
+    image: 'https://picsum.photos/id/1014/700/400',
+    from: {
+      name: 'Escape',
+      icon: 'https://picsum.photos/400/400?random=11',
+      date: '1m',
+      has_story: true,
+    },
+  },
   {
     id: 3,
     is_public: true,
     message:
-      'This is my khs sojsnsojs sl post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
+      'We make a living by what we get, but we make a life by what we give.',
     status_type: 'created_note',
     image: 'https://picsum.photos/id/1021/700/400',
     from: {
@@ -55,24 +69,10 @@ const data = [
     },
   },
   {
-    id: 5,
-    is_public: false,
-    message:
-      'This is my khs sojsnsojs sl post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
-    status_type: 'created_note',
-    image: 'https://picsum.photos/id/1/700/600',
-    from: {
-      name: 'Nour Mohamed',
-      icon: 'https://picsum.photos/400/300?random=20',
-      date: 'Jul 12',
-      has_story: true,
-    },
-  },
-  {
     id: 6,
     is_public: true,
     message:
-      'This is my khs sojsnsojs sl post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
+      `Who is watching the match? It's on fire!`,
     status_type: 'created_note',
     image: null,
     from: {
@@ -86,7 +86,7 @@ const data = [
     id: 7,
     is_public: false,
     message:
-      'This is my khs sojsnsojs sl post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
+      'You can say any foolish thing to a dog, and the dog will give you a look that says, ‘Wow, you’re right! I never would’ve thought of that!',
     status_type: 'created_note',
     image: 'https://picsum.photos/id/1025/700/400',
     from: {
@@ -100,7 +100,7 @@ const data = [
     id: 8,
     is_public: true,
     message:
-      'This is my khs sojsnsojs sl post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
+      'Good morning',
     status_type: 'created_note',
     image: 'https://picsum.photos/700/300?random=7',
     from: {
@@ -125,29 +125,30 @@ const data = [
     },
   },
   {
-    id: 10,
-    is_public: true,
-    message: `If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough`,
-    status_type: 'created_note',
-    image: 'https://picsum.photos/id/1014/700/400',
-    from: {
-      name: 'Escape',
-      icon: 'https://picsum.photos/400/400?random=11',
-      date: '1m',
-      has_story: true,
-    },
-  },
-  {
     id: 11,
     is_public: false,
     message:
-      'This is my khs sojsnsojs sl post, wanted to thank my kjsoj jsw and my parents akns ksns skjss ks',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     status_type: 'created_note',
     image: 'https://picsum.photos/700/300?random=4',
     from: {
       name: 'Omar Ahmed',
       icon: 'https://picsum.photos/600/700?random=1',
       date: '3d',
+      has_story: true,
+    },
+  },
+  {
+    id: 5,
+    is_public: false,
+    message:
+      'However difficult life may seem, there is always something you can do and succeed at',
+    status_type: 'created_note',
+    image: 'https://picsum.photos/id/11/700/600',
+    from: {
+      name: 'Nour Mohamed',
+      icon: 'https://picsum.photos/400/300?random=20',
+      date: 'Jul 12',
       has_story: true,
     },
   },
